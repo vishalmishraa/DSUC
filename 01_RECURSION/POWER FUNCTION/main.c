@@ -7,7 +7,7 @@ int power(int m,int n){
     return power(m,n-1)*m;
 }
 
-//this will take less number of multiplication to sind the result
+//this will take less number of multiplication to get the result
 int Lpower(int m,int n){
     //if power = 0
     if(n==0)
