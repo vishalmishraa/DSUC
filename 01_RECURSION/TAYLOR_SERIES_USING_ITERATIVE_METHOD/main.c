@@ -13,6 +13,7 @@ double e(int x,int n)
         den*=i;
         s+=num/den;
     }
+
     return s;
     
 }
